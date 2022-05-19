@@ -1,0 +1,52 @@
+/*NAVIGATION MENU*/
+.littleLogo{
+  overflow: visible;
+  float: left;
+  display: block;
+  position: fixed;
+  top: 0;
+  margin: 3px 0px 0px 15px;
+  width: 10%;
+  z-index: 0;
+}
+#navBar{
+  z-index: -1;
+  overflow: hidden;
+  background-color: cadetBlue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: solid 3px royalBlue;
+}
+.navButtDM{
+  background-image: url("../img/placeholder/buttons/FishButtonDM.png");
+}
+.navButMat{
+  background-image: url("../img/placeholder/buttons/FishButtonMatches.png");
+}
+.navButLis{
+    background-image: url("../img/placeholder/buttons/fishButtonList.png");
+}
+.navButCre{
+  background-image: url("../img/placeholder/buttons/fishButtonCredit.png");
+}
+#navBar input{
+  float: right;
+  display: block;
+  color: black;
+  font-size: 125%;
+  margin: 10px 20px 10px 20px;
+  text-align: left;
+  text-decoration: none;
+  border-style: none;
+
+  background-color: cadetBlue;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 100px;
+}
+
+/*SWIPPING BUTTONS*/
+
+/*PROFILES*/
