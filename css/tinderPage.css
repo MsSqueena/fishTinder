@@ -1,22 +1,21 @@
 /*NAVIGATION MENU*/
 .littleLogo{
-  overflow: visible;
-  float: left;
   display: block;
   position: fixed;
   top: 0;
   margin: 3px 0px 0px 15px;
-  width: 10%;
+  width: 7%;
   z-index: 0;
 }
 #navBar{
   z-index: -1;
   overflow: hidden;
   background-color: cadetBlue;
-  position: fixed;
   top: 0;
-  width: 100%;
-  border-bottom: solid 3px royalBlue;
+  width: 99%;
+  border: solid 3px darkcyan;
+  margin: 10px 5px 5px 5px;
+  border-radius: 5px;
 }
 .navButtDM{
   background-image: url("../img/placeholder/buttons/FishButtonDM.png");
@@ -47,6 +46,39 @@
   width: 100px;
 }
 
-/*SWIPPING BUTTONS*/
 
+
+/*BOX ID*/
+.profiles{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*SWIPPING BUTTONS*/
+.next{
+  background-image: url("../img/placeholder/buttons/Next.png");
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin: 300px 10px 300px 10px;
+}
+.death{
+  background-image: url("../img/placeholder/buttons/Death.png");
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 300px 10px 300px 10px;
+}
 /*PROFILES*/
