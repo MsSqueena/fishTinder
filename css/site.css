@@ -3,27 +3,3 @@ body{
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
-#homeLogo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  padding: 10px 10px 150px 10px;
-}
-#StartButt{
-  background-image: url("../img/placeholder/fishButton.png");
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  text-decoration: none;
-  border-style: none;
-
-  background-color: transparent;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  height: 100px;
-  width: 100px;
-}
