@@ -47,7 +47,6 @@
 }
 
 
-
 /*BOX ID*/
 .profiles{
   display: block;
@@ -55,7 +54,6 @@
   margin-right: auto;
   width: 50%;
 }
-
 /*SWIPPING BUTTONS*/
 .next{
   background-image: url("../img/placeholder/buttons/Next.png");
@@ -82,3 +80,4 @@
   margin: 300px 10px 300px 10px;
 }
 /*PROFILES*/
+/* Fading animation */
