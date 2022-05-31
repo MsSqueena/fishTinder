@@ -48,14 +48,14 @@
 
 
 /*BOX ID*/
-.profiles{
+#profiles{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 /*SWIPPING BUTTONS*/
-.next{
+#nextButt{
   background-image: url("../img/placeholder/buttons/Next.png");
   background-color: transparent;
   background-size: contain;
@@ -67,7 +67,7 @@
   float: right;
   margin: 300px 10px 300px 10px;
 }
-.death{
+#deathButt{
   background-image: url("../img/placeholder/buttons/Death.png");
   background-color: transparent;
   background-size: cover;
@@ -79,5 +79,17 @@
   float: left;
   margin: 300px 10px 300px 10px;
 }
+
+.w3-container.w3-animate-right{
+  animation-duration: 2s;
+}
 /*PROFILES*/
 /* Fading animation */
+
+/*CANVAS*/
+#bgCanvas{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+}
