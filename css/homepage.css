@@ -4,6 +4,7 @@
   margin-right: auto;
   width: 25%;
   padding: 10px 10px 150px 10px;
+  z-index: 0;
 }
 #StartButt{
   background-image: url("../img/placeholder/buttons/FishButtonStart.png");
@@ -20,4 +21,5 @@
 
   height: 100px;
   width: 100px;
+  z-index: 0;
 }
