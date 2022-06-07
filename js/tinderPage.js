@@ -1,10 +1,31 @@
 /*
-Here is the main Javascript for the slidshow of images.
+Author: Jacqueline Castro
+        (I'm trying my best, I'm sorry it's kind of ugly.)
+
+Contents: - Card Information and shuffle function,
+          - Three.js for the 3d modeled fishes made (hopefully),
+          - Button Hover and Click Functions,
+          - Probably a couple of more things, but hopefully their labeled on the bottom.
 */
 
 //----------------------FUNCTIONS---------------------------------------------//
+    /*Fish Prints is esentially an array of objects that contain:
+          - The Name (Scientific and Common)
+          - The Image (Or of What images I have at the moment. Sup Fish Is mine)
+          - The General information: Name, Location, Height, and Age
+          - A bio: This contains more detailed facts about the first. Ideally we would
+                   want it to be written as if it was a dating profile but wew shall see
+                   where we go with this.
+
+      I managed to make all the information to be jsut inputed into a html thing but img
+      couldn't be saved so it get's the whole path in it.
+
+      All Fishs all coem with another comment on top with the name of what fish it is and
+      the number that corresponds with the card. The reason I made the comment on top is
+      because I think it's a litle quicker to see than actually haveing to read through it.
+    */
 let fishPrints = [
-  { //INFOMRATION CARD          #0
+  { //INFOMRATION CARD          #0    IMAGE ADDED
     name:     "Infromation Card",
     fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
 
@@ -15,9 +36,9 @@ let fishPrints = [
               "Fish Tinder Here! Are you interested in finding your match? How about learning about a couple of fish? Here you can find all of that and more! "+
               "To start, press either the fish bones button or the heart button.",
   },
-  { //WELS CATIFISH             #1
+  { //WELS CATIFISH             #1    IMAGE ADDED
     name:     "Silurus Glanis",
-    fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
+    fishImg:  "<img src='../img/official/profileImage/catfish.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Wels Catfish <br>         <b>Location:</b> Eastern/Western Europe (Also in Spain & Italy) <br>"+
               "<b>Height:</b> 15ft<br>                <b>Age:</b> 15 - 80yr",
@@ -27,9 +48,9 @@ let fishPrints = [
               "They could be pretending to be another kind of fish, coul dbe getting a really good camera angle, could have photoshopped in a hot human body, could have a filter. . ."+
               "It's important though that we don't make the punchline that the catfish is ugly, cause that's mean."
   },
-  { // OARFISH                   #2
+  { // OARFISH                   #2   IMAGE ADDED
     name:     "Regalecus Glesne",
-    fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
+    fishImg:  "<img src='../img/official/profileImage/Oarfish.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Oarfish <br>               <b>Location:</b> Worldwide<br>"+
               "<b>Height:</b> 36ft<br>                 <b>Age:</b> N/A",
@@ -39,9 +60,9 @@ let fishPrints = [
               "Or like, nobody can ever find them cos they're shy.<br>"+
               "Oarfish have this huge plume of decorative 'feathers' on their head tho and homie defintely thinks it their best feature.",
   },
-  { //COMMON CLOWNFISH            #3
+  { //COMMON CLOWNFISH            #3    IMAGE ADDED
     name:     "Amphiprion Ocellaris",
-    fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
+    fishImg:  "<img src='../img/official/profileImage/Clownfish.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Common Clownfish <br>       <b>Location:</b> The Eastern Indian Ocean & Western Pacific<br>"+
               "<b>Height:</b> 4.3in<br>                 <b>Age:</b> 10yrs",
@@ -49,9 +70,9 @@ let fishPrints = [
     fishBio:  "I mean... it's a clown fish so it should probably try and tell jokes in the chat...<br>"+
               "If not in the bio at least. It is the shorest fish we have here if we want to play with it's height."
   },
-  { //HUMPBACK ANGLERFISH         #4
+  { //HUMPBACK ANGLERFISH         #4      IMAGE ADDED
     name:     "Ceratioidei",
-    fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
+    fishImg:  "<img src='../img/official/profileImage/anglerfish.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Humpback Anglerfish <br>    <b>Location:</b> Antarctic & Atlantic Ocean <br>"+
               "<b>Height:</b> Up To 4ft <br>            <b>Age:</b> 30yrs",
@@ -118,7 +139,6 @@ let fishPrints = [
   }
 ]
 //----------------------------------------------------------------------------//
-
 function objContainer(val){
   let curFish = fishPrints[val];
 
@@ -186,13 +206,13 @@ let prev = 0;
 deathButtEl.click(function(){
   shuffleCard(cardNum, false);
 })
-deathButtEl.hover(function(){
+deathButtEl.hover(function(){                           //WHEN MOUSE HOVES, CHANGE COLOR
   deathButtEl.toggleClass("deathButtTwo");
 })
 nextButtEl.click(function(){
   shuffleCard(cardNum, true);
 })
-nextButtEl.hover(function(){
+nextButtEl.hover(function(){                            //WHEN MOUSE HOVES, CHANGE COLOR
   nextButtEl.toggleClass("nextButtTwo");
 })
 
@@ -213,3 +233,5 @@ matchesEl.click(function(){
     $(".choiceButtons").css("visibility", "hidden");
   }
 })
+
+//------------------------THREE.JS TIME---------------------------------------//
