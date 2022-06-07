@@ -46,12 +46,6 @@
   width: 100px;
 }
 /*BOX ID*/
-#profiles{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 #output{
   border: solid 5px aquamarine;
   border-radius: 10px;
@@ -62,7 +56,7 @@
   top: 0px;
   width: 350px;
   height: 350px;
-  border: solid 3px aquamarine;
+  border: solid 10px aquamarine;
   border-radius: 10px;
   margin: 10px 5px 10px 5px;
 }
@@ -74,6 +68,11 @@
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 10px;
+
+  font-size: 135%;
+  color: MidnightBlue;
+  font-family: "Trirong", serif;
+  text-align: center;
 }
 .fishInfo{
   top: 0px;
@@ -83,6 +82,10 @@
   border-radius: 10px;
   margin: 10px 5px 10px 5px;
   padding: 10px;
+
+  font-size: 135%;
+  color: MidnightBlue;
+  font-family: "Trirong", serif;
 }
 .fishBio{
   top: 0px;
@@ -94,6 +97,9 @@
   padding: 10px;
   float: right;
 
+  font-size: 135%;
+  color: MidnightBlue;
+  font-family: "Trirong", serif;
 }
 /*SWIPPING BUTTONS*/
 #nextButt{
@@ -108,10 +114,14 @@
   float: right;
   margin: -400px 10px 0px 10px;
 }
+.nextButtTwo{
+  filter: hue-rotate(180deg);
+  filter: saturate(6);
+}
 #deathButt{
   background-image: url("../img/official/buttons/fishBones.png");
   background-color: transparent;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   border: none;
 
@@ -120,9 +130,16 @@
   float: left;
   margin: -400px 10px 0px 10px;
 }
+.deathButtTwo{
+  filter: hue-rotate(180deg);
+  filter: saturate(5);
+}
 
 .w3-container.w3-animate-right{
-  animation-duration: 3s;
+  animation-duration: 2s;
+}
+.w3-container.w3-animate-left{
+  animation-duration: 2s;
 }
 /*PROFILES*/
 /* Fading animation */
