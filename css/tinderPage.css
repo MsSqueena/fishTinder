@@ -63,7 +63,9 @@
 #output{
   border: solid 5px aquamarine;
   border-radius: 10px;
-  margin: 75px 400px 75px 400px;
+  margin: auto;
+  min-width: 1100px;
+  max-width: 1200px;
   background-color: lightSeaGreen;
 }
 .fishImage{
