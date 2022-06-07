@@ -38,6 +38,7 @@ let fishPrints = [
   },
   { //WELS CATIFISH             #1    IMAGE ADDED
     name:     "Silurus Glanis",
+    fishName: "Catfish",
     fishImg:  "<img src='../img/official/profileImage/catfish.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Wels Catfish <br>         <b>Location:</b> Eastern/Western Europe (Also in Spain & Italy) <br>"+
@@ -50,6 +51,7 @@ let fishPrints = [
   },
   { // OARFISH                   #2   IMAGE ADDED
     name:     "Regalecus Glesne",
+    fishName: "Oarfish",
     fishImg:  "<img src='../img/official/profileImage/Oarfish.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Oarfish <br>               <b>Location:</b> Worldwide<br>"+
@@ -62,6 +64,7 @@ let fishPrints = [
   },
   { //COMMON CLOWNFISH            #3    IMAGE ADDED
     name:     "Amphiprion Ocellaris",
+    fishName: "Clownfish",
     fishImg:  "<img src='../img/official/profileImage/Clownfish.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Common Clownfish <br>       <b>Location:</b> The Eastern Indian Ocean & Western Pacific<br>"+
@@ -72,6 +75,7 @@ let fishPrints = [
   },
   { //HUMPBACK ANGLERFISH         #4      IMAGE ADDED
     name:     "Ceratioidei",
+    fishName: "Anglerfish",
     fishImg:  "<img src='../img/official/profileImage/anglerfish.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Humpback Anglerfish <br>    <b>Location:</b> Antarctic & Atlantic Ocean <br>"+
@@ -80,9 +84,10 @@ let fishPrints = [
     fishBio:  "Ugly cute? Maybe a goth/emo type dude? Maybe has that scary hello kitty dropping xans tattoo chains +"+
               " all black instagram asthetic"
   },
-  { //SEAGULL TRYING TO BE A FISH   #5
+  { //SEAGULL TRYING TO BE A FISH   #5     IMAGE ADDED
     name:     "Realus Fishus",
-    fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
+    fishName: "Seagull",
+    fishImg:  "<img src='../img/official/profileImage/Seagull.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Fihsh <br>                   <b>Location:</b> Wahther<br>"+
               "<b>Height:</b> 2ft<br>                    <b>Age:</b> 5 - 15yr",
@@ -90,35 +95,29 @@ let fishPrints = [
     fishBio:  "Def wearing a big fish mascot suit. 'Hi! I like doing normal fish things like breathing water!"+
               "And going for a swim with my school! and eating fi--- eating seaweed!'",
   },
-  { //SMOOTH HAMMERHEAD SHARK       #6
-    name:     "Sphyrna Zygaena",
-    fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
+  { //MUDSKIPPE                      #6     IMAGE ADDED
+    name:     "",
+    fishName: "Mudskipper",
+    fishImg:  "<img src='../img/official/profileImage/Mudskipper.jpg' class='fishImage'</div>",
 
-    fishInfo: "<b>Name:</b> Smooth Hammerhead Shark <br>       <b>Location:</b> Worldwide (Tropical & Temperate Waters) <br>"+
-              "<b>Height:</b> 4 Meters <br>                    <b>Age:</b> 20yrs",
+    fishInfo: "<b>Name:</b> Mudskipper <br>                        <b>Location:</b>  <br>"+
+              "<b>Height:</b> <br>                     <b>Age:</b> ",
 
-    fishBio:  "Really into its head shape. Flexes its 360 vision",
+    fishBio:  ""
   },
-  { //REMORA                        #7
-    name:     "Echeneidae",
-    fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
-
-    fishInfo: "<b>Name:</b> Remora <br>                        <b>Location:</b> Tropical & Subtropical Oceans <br>"+
-              "<b>Height:</b> 30-90cm <br>                     <b>Age:</b> Unknown",
-
-    fishBio:  "Looking for Sharks, Sea Turtles and Whales. (Definitely a sugarbaby)"
-  },
-  { //PORCUPINEFISH                 #8
+  { //PORCUPINEFISH                 #7        IMAGE ADDED
     name:     "Diodontidae",
-    fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
+    fishName: "Porcupinefish",
+    fishImg:  "<img src='../img/official/profileImage/PorcupineFish.jpeg' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Porcupinefish <br>                 <b>Location:</b> Tropical & Subtropical Environments <br>"+
               "<b>Height</b>: 36 inches <br>                   <b>Age:</b> 10-15yrs",
 
     fishBio:  "Play into the fact that it has a toxic substance covering it's skin"
   },
-  { // GOBLIN SHARK                 #9
+  { // GOBLIN SHARK                 #8         IMAGE ADDED
     name:     "Mitsukurina Owstoni",
+    fishName: "Goblin Shark",
     fishImg:  "<img src='../img/official/profileImage/GoblinShark.jpg' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Goblin Shark <br>                  <b>Location:</b> Temperate & Tropical Waters <br>"+
@@ -127,8 +126,9 @@ let fishPrints = [
     fishBio:  "Maybe because we can see it's teeth all the time, we can make it seem like the Goblin Shark "+
               " is really happy all the time or that it's trying to be intimidating all the time."
   },
-  { //BLOBFISH                      #10
+  { //BLOBFISH                      #9       IMAGE ADDED
     name:     "Psychrolutes Marcidus",
+    fishName: "Blobfish",
     fishImg:  "<img src='../img/official/profileImage/Blobfish.jpg' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Blobfish <br>                       <b>Location:</b> Atlantic, Indian & Pacific Ocean <br>"+
@@ -138,6 +138,59 @@ let fishPrints = [
               " it's usually dead. Something about it having very soft bones just makes me think it should be a pushover."
   }
 ]
+//----------------------------------------------------------------------------//
+let randomMessages = [
+  "Hey! How's it going? I was wondering if you wanted to meet up one of these days?",
+  "I know a good seaweed diner not to far from here if you wanna check it out.",
+  "Did you know that Whale Sharks are the biggest fish in the world at 16 meters long!",
+  "Did you know that Neotropical fish alone make up about 10% of all the vertebrates in the world with 5,600 speices in it's category.",
+  "Did you know that not all animals with the word 'fish' in their name are actually fish!"
+]
+//----------------------------------------------------------------------------//
+function randomChat(){
+  let result = Math.floor(Math.random() * randomMessages.length);
+
+  return randomMessages[result];
+}
+//----------------------------------------------------------------------------//
+function fishList(){
+  console.log("FishList");
+  let stringOfFish = "";
+  let value = 0;
+
+  for(let i = 0; i < round; i++){
+    value = fishInfo[i]
+    let fishArray = fishPrints[value];
+    stringOfFish += ("\n"+fishArray.fishName);
+  }
+
+  if (round == 0){
+    stringOfFish += "\nOh no! It looks like you haven't liked any fish.";
+    return stringOfFish;
+    stringOfFish == "";
+  } else {
+    return stringOfFish;
+  }
+}
+function fishChat(){
+  let stringOfMessage = "";
+
+  if (round == 0){
+    stringOfMessage +="\nOops I lied, I don't think you have any messages at the moment! Please try looking through the matches. Mayeb then you'll catch a match";
+    return stringOfMessage;
+    stringOfMessage == "";
+  } else {
+    let value = Math.floor(Math.random() * fishInfo.length);
+    let fishValue = fishInfo[value];
+    let fishFriend = fishPrints[fishValue];
+    console.log(fishFriend);
+
+    stringOfMessage += ("\n"+fishFriend.fishName+": "+randomChat());
+    console.log(stringOfMessage);
+
+    return stringOfMessage;
+  }
+}
 //----------------------------------------------------------------------------//
 function objContainer(val){
   let curFish = fishPrints[val];
@@ -185,6 +238,7 @@ function shuffleCard(x, statment){
 
 //------------------------WORKING CODE----------------------------------------//
 outputEl    = $("#output");                            //Collect the output location
+listBoxEl   = $("#listBox");
 
 deathButtEl = $("#deathButt");                         //Collect Button information
 nextButtEl  = $("#nextButt");
@@ -194,12 +248,13 @@ matchesEl   = $("#matches");
 listEl      = $("#list");
 creditsEl   = $("#credits");
 
-var cardNum = 11;                                      //NUMBER OF CARDS
+var cardNum = 10;                                      //NUMBER OF CARDS
 objContainer(0);                                       //START WITH THE INFO CARD
 let fishInfo = [];                                     //ARRAY FOR FISHES LIKED
 let round = 0;                                         //PLACEHOLDER FOR FISH VALUE
 let hidden = false;                                    //CARDS ARE NOT HIDDEN
 let prev = 0;
+listBoxEl.css("visibility", "hidden");
 
 //------------------------BUTTONS & WHAT THEY D0------------------------------//
 //FishBONES & HEARTS button shuffle the fish cards shown
@@ -216,10 +271,23 @@ nextButtEl.hover(function(){                            //WHEN MOUSE HOVES, CHAN
   nextButtEl.toggleClass("nextButtTwo");
 })
 
+dmEl.hover(function(){
+  dmEl.toggleClass("hoverDm");
+})
+matchesEl.hover(function(){
+  matchesEl.toggleClass("hoverMat");
+})
+listEl.hover(function(){
+  listEl.toggleClass("hoverList");
+})
+creditsEl.hover(function(){
+  creditsEl.toggleClass("hoverCredit");
+})
+//------------------------NAVIGATION BAR BUTTONS------------------------------//
 //MATCHES button hids the fishCards and the buttons on screen so you could see
 //everything swimming in the background.
 matchesEl.click(function(){
-  console.log("click");
+  console.log("Matches Click");
   //This turns off the fishCards
   if($("#output").css("visibility") == "hidden"){
     $("#output").css("visibility", "visible");
@@ -233,5 +301,13 @@ matchesEl.click(function(){
     $(".choiceButtons").css("visibility", "hidden");
   }
 })
+//
+listEl.click(function(){
+  console.log("List Click");
+  alert("So far you have collected "+round+" fish. Here all all the fishes you have collected so far:\n"+fishList());
+})
 
-//------------------------THREE.JS TIME---------------------------------------//
+dmEl.click(function(){
+  console.log("DM Click");
+  alert("You got a message! \n"+fishChat());
+})

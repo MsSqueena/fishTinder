@@ -30,3 +30,7 @@ body{
     visibility: hidden;
   }
 }
+
+.hoverStart{
+  background-image: url("../img/official/buttons/HoversStart.png");
+}

@@ -1,4 +1,4 @@
-/*NAVIGATION MENU*/
+/*---------------------------NAVICATION MENU----------------------------------*/
 .littleLogo{
   display: block;
   position: fixed;
@@ -29,6 +29,20 @@
 .navButCre{
   background-image: url("../img/placeholder/buttons/fishButtonCredit.png");
 }
+/*-------------------HOVERING NAV BUTTONS-------------------------------------*/
+.hoverDm{
+  background-image: url("../img/official/buttons/HoverDm.png");
+}
+.hoverMat{
+  background-image: url("../img/official/buttons/HoverMatches.png");
+}
+.hoverList{
+  background-image: url("../img/official/buttons/HoverList.png");
+}
+.hoverCredit{
+  background-image: url("../img/official/buttons/HoverCredits.png");
+}
+/*----------------------------------------------------------------------------*/
 #navBar input{
   float: right;
   display: block;
@@ -45,7 +59,7 @@
   height: 70px;
   width: 100px;
 }
-/*BOX ID*/
+/*----------------------------FISH CARD OUTPUT BOX----------------------------*/
 #output{
   border: solid 5px aquamarine;
   border-radius: 10px;
@@ -101,7 +115,7 @@
   color: MidnightBlue;
   font-family: "Trirong", serif;
 }
-/*SWIPPING BUTTONS*/
+/*-----------------------------SWIPPING BUTTONS-------------------------------*/
 #nextButt{
   background-image: url("../img/official/buttons/fishHeart.png");
   background-color: transparent;
@@ -134,12 +148,8 @@
   filter: hue-rotate(180deg);
   filter: saturate(5);
 }
-
+/*-----------------------------ANIMATION--------------------------------------*/
 .w3-container.w3-animate-right{
   animation-duration: 2s;
 }
-.w3-container.w3-animate-left{
-  animation-duration: 2s;
-}
-/*PROFILES*/
-/* Fading animation */
+/*-----------------------------LIST BOX---------------------------------------*/
