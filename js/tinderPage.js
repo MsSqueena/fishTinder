@@ -27,14 +27,15 @@ Contents: - Card Information and shuffle function,
 let fishPrints = [
   { //INFOMRATION CARD          #0    IMAGE ADDED
     name:     "Infromation Card",
-    fishImg:  "<img src='../img/placeholder/bubble.png' class='fishImage'</div>",
+    fishImg:  "<img src='../img/official/profileImage/SupFish2.png' class='fishImage'</div>",
 
     fishInfo: "<b>Name:</b> Sup fish<br>             <b>Location:</b> Everywhere and nowhere fam<br>"+
               "<b>Height:</b> Who knows fam<br>      <b>Age:</b> Who knows fam",
 
-    fishBio:  "Hey, how's it going?<br>"+
-              "Fish Tinder Here! Are you interested in finding your match? How about learning about a couple of fish? Here you can find all of that and more! "+
-              "To start, press either the fish bones button or the heart button.",
+    fishBio:  "Welocme to Fish Tinder!!!<br>"+
+              "<br>Are you intereted in finding your match? Do you want to learn a bunch of fish facts?<br>"+
+              "<br>Say no more! Here on Fish Tinder, we have a bunch of different fish profiles for you to browse through a learn a couple facts about fish."+
+              "To Start, press either the Fish Bones or the Heart Buttons on the side."
   },
   { //WELS CATIFISH             #1    IMAGE ADDED
     name:     "Silurus Glanis",
