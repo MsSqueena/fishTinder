@@ -45,10 +45,12 @@ let fishPrints = [
     fishInfo: "<b>Name:</b> Wels Catfish <br>         <b>Location:</b> Eastern/Western Europe (Also in Spain & Italy) <br>"+
               "<b>Height:</b> 15ft<br>                <b>Age:</b> 15 - 80yr",
 
-   fishBio:   "Obviously this fish wants to catfish you.<br>"+
-              "How do people catfish?<br>"+
-              "They could be pretending to be another kind of fish, coul dbe getting a really good camera angle, could have photoshopped in a hot human body, could have a filter. . ."+
-              "It's important though that we don't make the punchline that the catfish is ugly, cause that's mean."
+   fishBio:   "Hello!<br>"+
+              "<br>I'm a Wels Catfish if you didn't know!<br>"+
+              "<br>My kind are the largest freshwater fishin in Europe and we're native to Europe and Asia however, as of now we are also an invasive species in Spain and Italy.<br>"+
+              "<br>And do you see those little whiskers on my fact? Those are barbles and those barbels act like a tongue. because of that, I have the most taste buds of all animals."+
+              "<br>It's really nice for me since I'm such a foodie.<br>"
+
   },
   { // OARFISH                   #2   IMAGE ADDED
     name:     "Regalecus Glesne",
@@ -58,10 +60,12 @@ let fishPrints = [
     fishInfo: "<b>Name:</b> Oarfish <br>               <b>Location:</b> Worldwide<br>"+
               "<b>Height:</b> 36ft<br>                 <b>Age:</b> N/A",
 
-    fishBio:  "Oarfish are rare. So two ways: <br>"+
-              "Mysterious beauty. Like nobody can ever find them so they're super aloof and cool.<br>"+
-              "Or like, nobody can ever find them cos they're shy.<br>"+
-              "Oarfish have this huge plume of decorative 'feathers' on their head tho and homie defintely thinks it their best feature.",
+    fishBio:  "<br>Why Hello There!<br>"+
+              "<br>I am an Oarfish and your rather fortunate to come across me. My species rarely comes to the surface because when we do, it's mostly because we're dying.<br>"+
+              "So matching with me KINDA means we're working long distance. After all, I, like many other Oarfish, live deep in the mesopelagic zone.<br>"+
+              "Though funny enough, you can still call me Mr.Wordlwide since I'm found world wide as a cosmopolitan species.<br>"+
+              "My favorite kind of food are soft since I have no teeth which makes it an interesting feat to find food. He hunt our prey vertically and eat crustaceans, plankton,"+
+              "and squid.<br> I guess another little 'fun fact' about me is that I'm the longest bony fish there is.",
   },
   { //COMMON CLOWNFISH            #3    IMAGE ADDED
     name:     "Amphiprion Ocellaris",
@@ -71,8 +75,11 @@ let fishPrints = [
     fishInfo: "<b>Name:</b> Common Clownfish <br>       <b>Location:</b> The Eastern Indian Ocean & Western Pacific<br>"+
               "<b>Height:</b> 4.3in<br>                 <b>Age:</b> 10yrs",
 
-    fishBio:  "I mean... it's a clown fish so it should probably try and tell jokes in the chat...<br>"+
-              "If not in the bio at least. It is the shorest fish we have here if we want to play with it's height."
+    fishBio:  "Howdy there!<br>"+
+              "<br> I'm your friendly little Clownfish!<br>"+
+              "A little fun fact about little old me is that all clownfishes are born male but we can change into a female if you want. We're pretty fluid like that."+
+              "<br>We live in seaa anemones and in order to build up our immunity to them, we touch them with all different parts of our bodies making us, gradually, immune "+
+              "to the creature's venom. We have a symbiotic relationship with them you could say. They provide us protection and we remove teh parasites from them, scaring intruders away."
   },
   { //HUMPBACK ANGLERFISH         #4      IMAGE ADDED
     name:     "Ceratioidei",
@@ -82,8 +89,13 @@ let fishPrints = [
     fishInfo: "<b>Name:</b> Humpback Anglerfish <br>    <b>Location:</b> Antarctic & Atlantic Ocean <br>"+
               "<b>Height:</b> Up To 4ft <br>            <b>Age:</b> 30yrs",
 
-    fishBio:  "Ugly cute? Maybe a goth/emo type dude? Maybe has that scary hello kitty dropping xans tattoo chains +"+
-              " all black instagram asthetic"
+    fishBio:  "Who am I?<br>"+
+              "<br>Why I'm an Anglerfish!<br>"+
+              "<br>I like to eat crustacenas and other small fish that get in my way. And you see that little orb on top of my head? It's a sack of bioluminescent bacteria."+
+              "Using that thing on my head, I'm able to get my lunch.<br>"+
+              "<br>The dudes in our speices act like parasites towards the females of our kind and they only serve the purpose for us to reproduce."+
+              "<br>Since we live in such a dark place, our eyesight tends to be pretty bad and if not, we're practically blind. You wouldn't want to come too close just yet, "+
+              " I might just confuse you with my next meal."
   },
   { //SEAGULL TRYING TO BE A FISH   #5     IMAGE ADDED
     name:     "Realus Fishus",
@@ -93,18 +105,22 @@ let fishPrints = [
     fishInfo: "<b>Name:</b> Fihsh <br>                   <b>Location:</b> Wahther<br>"+
               "<b>Height:</b> 2ft<br>                    <b>Age:</b> 5 - 15yr",
 
-    fishBio:  "Def wearing a big fish mascot suit. 'Hi! I like doing normal fish things like breathing water!"+
-              "And going for a swim with my school! and eating fi--- eating seaweed!'",
+    fishBio:  "Hallo fellow Fihsh!<br>"+
+              "<br>I am fihsh like you and I like to swim in le wahther with all my fihshy firends. I also like to drink le whather, the salt makes it extra tasty.<br>"+
+              "<br>I love to breath...le whather..so trust we homie, let's plan a day to meet and swim!",
   },
-  { //MUDSKIPPE                      #6     IMAGE ADDED
-    name:     "",
-    fishName: "Mudskipper",
+  { //MUDSKIPPE                      #6     IMAGE ADDED RETUNR TO MUDSKIPPER
+    name:     "Peripthalmodon Schlosseri",
+    fishName: "Giant Mudskipper",
     fishImg:  "<img src='../img/official/profileImage/Mudskipper.jpg' class='fishImage'</div>",
 
-    fishInfo: "<b>Name:</b> Mudskipper <br>                        <b>Location:</b>  <br>"+
-              "<b>Height:</b> <br>                     <b>Age:</b> ",
+    fishInfo: "<b>Name:</b> Mudskipper <br>                        <b>Location:</b>Tropical Shores in the Eastern Indian Ocean & Western Pacific<br>"+
+              "<b>Height:</b>2.75 - 9.75in <br>                     <b>Age:</b> 5yrs",
 
-    fishBio:  ""
+    fishBio:  "Yo, yo, yo!<br>"+
+              "<br> I'm a little Mudskipper and i love to come up every now and then and chill on the rocks.<br>"+
+              "<br> Fun little facts about me is that I can walk on land unlike a lot of other spieces. There are very few like us and so we can chill on the beach, vibe a bit together."+
+              "We can also get some takeout when we hang. I like to eat flies, crustaceans, mealworms, bettles, and on the occassion other fish."
   },
   { //PORCUPINEFISH                 #7        IMAGE ADDED
     name:     "Diodontidae",
@@ -114,7 +130,11 @@ let fishPrints = [
     fishInfo: "<b>Name:</b> Porcupinefish <br>                 <b>Location:</b> Tropical & Subtropical Environments <br>"+
               "<b>Height</b>: 36 inches <br>                   <b>Age:</b> 10-15yrs",
 
-    fishBio:  "Play into the fact that it has a toxic substance covering it's skin"
+    fishBio:  "Yo!<br>"+
+              "<br>If you haven't noticed by my incredible picture (since I'm kinda....deflated), I'm a Porcupinefish!<br>"+
+              "<br>Radical!<br><br> Sadly, if you want to hug or do any of the junk, you sadly can't. Now why is that? it's because my skin has a toxic substance.<br>"+
+              "<br>On another note, if you want to see me puff up, I absorbe a whole lot of water when prey is around me. And another fun fact I guess, I have a single tooth "+
+              "that helps me eat crustaceans and mollusks."
   },
   { // GOBLIN SHARK                 #8         IMAGE ADDED
     name:     "Mitsukurina Owstoni",
@@ -124,8 +144,11 @@ let fishPrints = [
     fishInfo: "<b>Name:</b> Goblin Shark <br>                  <b>Location:</b> Temperate & Tropical Waters <br>"+
               "<b>Height:</b> 12ft. <br>                       <b>Age:</b> 60yrs",
 
-    fishBio:  "Maybe because we can see it's teeth all the time, we can make it seem like the Goblin Shark "+
-              " is really happy all the time or that it's trying to be intimidating all the time."
+    fishBio:  "Hello there,<br>"+
+              "<br>i'm your friendly old Golbin shar, though I don't look too friendly...<br>"+
+              "I live deep in the ocean, around 1300ft down. I don't really eatting around other people that that's because our Jaw unhinges in order to devour our meals."+
+              "Unlike other animals, our face is always in a toothy grin since our teeth are always showing. We feed off of crustaceans, fish, and squid and we're where mostly active "+
+              "during the mornings and the evenings. And we're kinda...slow."
   },
   { //BLOBFISH                      #9       IMAGE ADDED
     name:     "Psychrolutes Marcidus",
@@ -135,8 +158,11 @@ let fishPrints = [
     fishInfo: "<b>Name:</b> Blobfish <br>                       <b>Location:</b> Atlantic, Indian & Pacific Ocean <br>"+
               "<b>Height:</b> >30cm <br>                        <b>Age:</b> Up to 130",
 
-    fishBio:  "Refrence the Fact that people usually think it looks weird becuase when it comes to the surface "+
-              " it's usually dead. Something about it having very soft bones just makes me think it should be a pushover."
+    fishBio:  "Hi...<br>"+
+              "<br>I'm a Blobfish...that's what people call me since when we're on the surface we kinda of...deflate.<br>"+
+              "<br>We're a product of the deep sea itself, with very little muscles and very soft bones. We dont' actually look like blobs back home, we're just under so much "+
+              "pressure up here on the surface. After all 600 to 1200m down is a big different...It's actually a miracle how I'm still alive...since we kinda of die when he appear."+
+              "Since we're so soft, the water guides us to all the places we go due to the buoyancy by our high fat content."
   }
 ]
 //----------------------------------------------------------------------------//
