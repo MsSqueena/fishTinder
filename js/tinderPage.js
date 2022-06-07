@@ -244,7 +244,7 @@ function shuffleCard(x, statment){
   while (val == 0){
     val = Math.floor(Math.random() * x);
   }
-//
+
   if (val == prev){
     if (val == x){
       val -= 1;
@@ -262,7 +262,6 @@ function shuffleCard(x, statment){
     prev = val;
   }
 }
-
 //------------------------WORKING CODE----------------------------------------//
 outputEl    = $("#output");                            //Collect the output location
 listBoxEl   = $("#listBox");
@@ -337,4 +336,9 @@ listEl.click(function(){
 dmEl.click(function(){
   console.log("DM Click");
   alert("You got a message! \n"+fishChat());
+})
+
+creditsEl.click(function(){
+  console.log("Credits Click");
+  alert("This website was created by: \n\nJacqueline Castro (Programming) \nDiego Agurto (Art) \nLaiy Joshi (Art) \nSabah Shaikh (Research) \nJulian Johnson (Art)");
 })
