@@ -45,8 +45,6 @@
   height: 70px;
   width: 100px;
 }
-
-
 /*BOX ID*/
 #profiles{
   display: block;
@@ -54,9 +52,52 @@
   margin-right: auto;
   width: 50%;
 }
+#output{
+  border: solid 5px aquamarine;
+  border-radius: 10px;
+  margin: 75px 400px 75px 400px;
+  background-color: lightSeaGreen;
+}
+.fishImage{
+  top: 0px;
+  width: 350px;
+  height: 350px;
+  border: solid 3px aquamarine;
+  border-radius: 10px;
+  margin: 10px 5px 10px 5px;
+}
+.name{
+  top: 0px;
+  width: 350px;
+  height: 50px;
+  border: solid 3px aquamarine;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 10px;
+}
+.fishInfo{
+  top: 0px;
+  width: 350px;
+  height: 200px;
+  border: solid 3px aquamarine;
+  border-radius: 10px;
+  margin: 10px 5px 10px 5px;
+  padding: 10px;
+}
+.fishBio{
+  top: 0px;
+  width: 685px;
+  height: 625px;
+  border: solid 3px aquamarine;
+  border-radius: 10px;
+  margin: 10px 5px 10px 5px;
+  padding: 10px;
+  float: right;
+
+}
 /*SWIPPING BUTTONS*/
 #nextButt{
-  background-image: url("../img/placeholder/buttons/Next.png");
+  background-image: url("../img/official/buttons/fishHeart.png");
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
@@ -65,10 +106,10 @@
   height: 100px;
   width: 100px;
   float: right;
-  margin: 300px 10px 300px 10px;
+  margin: -400px 10px 0px 10px;
 }
 #deathButt{
-  background-image: url("../img/placeholder/buttons/Death.png");
+  background-image: url("../img/official/buttons/fishBones.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,19 +118,11 @@
   height: 100px;
   width: 100px;
   float: left;
-  margin: 300px 10px 300px 10px;
+  margin: -400px 10px 0px 10px;
 }
 
 .w3-container.w3-animate-right{
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 /*PROFILES*/
 /* Fading animation */
-
-/*CANVAS*/
-#bgCanvas{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: -2;
-}

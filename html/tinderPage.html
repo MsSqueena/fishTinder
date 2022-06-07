@@ -11,7 +11,7 @@
   <script src="../js/loader.js"defer></script>
 
   <!---USING THE p5.Play LIBRARY THAT WE DOWNLOADED AND ADDED, COULDN'T FIGURE OUT HOW TO CALL--->
-  <script src="https://molleindustria.github.io/p5.play/lib/p5.play.js"></script>
+  <!--<script src="https://molleindustria.github.io/p5.play/lib/p5.play.js"></script>--->
   <script src="../lib/p5.min.js" type="text/javascript"></script>
 
   <!---w3.CSS I BELIEVE THIS IS A FRAMEWORK...MOSTLY FOR ANIMATING CARDS TO SLIDE IN--->
@@ -37,13 +37,12 @@
   </div>
 
   <div id="box">
+      <!---OUTPUT FISH CARDS--->
+      <div id="output" class='w3-container w3-animate-right'></div>
       <!---ADD THE HEART AND FISHBONE BONES TO THE LEFT AND RIGHT OF THE CARD--->
       <input type="button" class="choiceButtons" id="nextButt" name="nextButt"/>
       <input type="button" class="choiceButtons" id="deathButt" name="deathButt"/>
-      <!---OUTPUT FISH CARDS--->
-      <div id="output"></div>
-  </div>
 
-  <div id="bgCanvas"></div>
+  </div>
 </body>
 </html>
